@@ -10,14 +10,16 @@ To use this project to make a blog of your own you'll need the following from th
 <br>
 <i>Of course you are free to edit the main.css to your liking.</i>
 <br><br>
-<b>Writing blogposts</b>
-<br><br>
-Write some blogposts and save them as a .txt. The filename can be anything but it helps to keep things organized if it's immediately recognizable as a specific blogpost. Each blogpost .txt should have a unique name. 
+<h2>Creating the blogposts</h2>
+<br>
+Write some blogposts and save them as a .txt. The filename can be anything but to keep things organized it helps if it's immediately recognizable as a specific blogpost. Each blogpost .txt should have a unique name. 
 <br><br>
 Upload the .txt files to your github repo, preferably in a folder named 'blogposts'.
 <br><br>
 <b>!- Even if you deploy your blog from gh-pages, you only need to upload your blogposts .txt's to your master branch. You can simply link to them with an url as I will explain below.</b>
 <br><br>
+<h2>Setting up the .json file</h2>
+<br>
 Now make sure your posts.json's formatting looks like this (New blogposts are added at the bottom of the array):
 <br><br>
 <pre>
