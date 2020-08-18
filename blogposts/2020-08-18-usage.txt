@@ -10,3 +10,24 @@ To use this project to make a blog of your own you'll need the following:
 
 Of course you are free to edit the main.css to your liking.
 
+<b>Then what?</b?>
+
+Type some blogposts and save them as a .txt. The filename can be anything but it helps if it's immediately recognizable as a specific blogpost (Also, each blogpost .txt should have a unique name).
+
+Now make sure your posts.json file links to your blogposts in the correct manner:
+
+<pre>
+[
+	{
+		"title": "Description",
+		"date":"2020/08/18",
+		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-description.txt"
+	},
+	
+	{
+		"title": "Usage",
+		"date":"2020/08/18",
+		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-usage.txt"
+	}
+]
+</pre>
