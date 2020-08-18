@@ -60,7 +60,7 @@ Now go into the blog-control.js file, and at the top of the file change the 'pos
 <br>
 Finally upload the index.html, main.css and blog-control.js to your repository and deploy the page to see if things are working correctly.
 <br><br>
-If you want add more blogposts in the future, you simply have to write content for it in a .txt. Upload the .txt to your 'blogposts' folder in your repository and add a new object to the array in your posts.json which will hold the title, date and raw-url of your new blogpost.
-<br>
+If you want add more blogposts in the future, you simply have to write content for it in a .txt. Upload the .txt to your 'blogposts' folder in your repository and add a new object to the bottom of the array in your posts.json which will hold the title, date and raw-url of your new blogpost.
+<br><br>
 Good luck!
 
