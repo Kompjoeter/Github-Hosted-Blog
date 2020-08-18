@@ -2,22 +2,10 @@ This is a github-stored blog made by RanDByyp aka Joran de Boer.
 <br><br>
 To display a blogpost, the program grabs a .json file from its repo (The same repo this webpage is deployed from) using 'fetch'. The json file consists of an array filled with objects, each object containing a 'title', 'date' and 'file'.
 <br><br>
-<b>It might look something like this:</b>
-<br><br>
-<pre>
-[ <br>
-	{ <br>
-		"title": "Description", <br>
-		"date":"2020/08/18", <br>
-		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-description.txt" <br>
-	} <br>
-] <br>
-</pre>
-<br><br>
 The 'title' is a simple string with the title of the post. It gets applied to the correct HTML element.
 <br><br>
 Same goes for 'date', which is a simple string with the date of the post. It gets applied to the correct HTML element.
 <br><br>
 The 'file' holds a string with an url which links to a .txt file in a folder inside the projects repo.
 <br><br>
-This .txt file holds the text of the blog post (The text you are reading right now!), so the actual post content. It is applied to the correct HTML element as if it was actual HTML code using 'innerHTML'. (So the content of the .txt file can hold HTML-Elements which will be applied as such).
+This .txt file holds the text of the blog post (The text you are reading right now!), so the actual post content. It is applied to the correct HTML element as if it was actual HTML code using 'innerHTML'. (So the content of the .txt file can hold HTML-Elements <i><b>which will be applied as such</b></i>).
