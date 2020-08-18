@@ -1,6 +1,6 @@
 var postAmount;
 var postActive;
-var postsSource = "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/posts.json"
+var postsSource = "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/posts.json"
 var latestPostFirst = false;
 
 window.addEventListener('load', (event) => 
