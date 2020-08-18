@@ -10,7 +10,7 @@ The content of the blogposts is stored in .txt's, a .json file holds the data of
 <br><br>
 The project can still be optimized, but it works and for a simple blog it does the trick.
 <br><br>
-In the future I might look into adding sorting of blogposts by date, alphabet or even category and make it so that the ordering of the blogposts on the webpage is not dependent on the order of the objects in the json array.
+In the future I might look into adding 'sorting of blogposts' by date, alphabet or even category and make it so that the ordering of the blogposts on the webpage is not dependent on the order of the objects in the json array.
 <br><br>
 <h2>How does it work?</h2>
 <br>
