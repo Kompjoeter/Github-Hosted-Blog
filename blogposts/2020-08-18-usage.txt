@@ -31,8 +31,8 @@ When you navigate to the .txt file in your repository, there should be a button 
 <br><br>
 Make sure your posts.json's formatting looks something like this (New blogposts are added at the bottom of the array):
 <br><br>
-<div style="border:#484848 solid 1px" padding="1em"> 
-<pre>
+<div style="border:#484848 solid 1px" padding=1em"> 
+
 [
 	{
 		"title": "Description",
@@ -46,7 +46,7 @@ Make sure your posts.json's formatting looks something like this (New blogposts 
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-usage.txt"
 	}
 ]
-</pre>
+
 </div>
 <br>
 After you have edited the post.json to contain all your blogpost-data, upload it to your repository.
