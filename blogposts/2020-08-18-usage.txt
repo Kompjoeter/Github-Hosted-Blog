@@ -23,7 +23,7 @@ Upload the .txt files to your github repository, preferably in a folder named 'b
 <h2>Setting up the .json file</h2>
 <br>
 As I've stated before, every object in the array represents a blogpost. It has a <b>'title'</b> (string), a <b>'date'</b> (string) and <b>'file'</b>(string). New blogposts are added at the bottom of the array.
-<br>
+<br><br>
 Edit the title and date to your liking, but make sure the 'file' links to the correct url holding the .txt that contains the correct content for your blogpost.
 <br><br>
 Make sure the url in 'file' is a 'raw' url, otherwise the 'fetch' operation to grab the blogpost .txt will fail. 
