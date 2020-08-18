@@ -52,6 +52,7 @@ body
 {
     grid-column: 1/13;
     padding: 1em;
+    padding-left: 20px;
 }
 
 #title, #date
