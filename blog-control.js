@@ -1,6 +1,6 @@
 var postAmount;
 var postActive;
-var postsSource = "https://github.com/RanDByyp/Github-Stored-Blog/blame/master/posts.json"
+var postsSource = "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/posts.json"
 
 window.addEventListener('load', (event) => 
 {
