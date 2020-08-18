@@ -1,10 +1,10 @@
-<i>This is a github-hosted blog made by RanDByyp aka Joran de Boer.</i>
+<i>This is a GitHub-hosted blog made by RanDByyp aka Joran de Boer.</i>
 <br><br>
-Back when I was working on my website, I was considering adding a blog to it. I quickly realized that adding lengthy blogposts to my HTML wasn't gonna cut it. I needed hosting to store all my blogposts but I wasn't even sure if I would actually end up writing anything. It was just an experiment, so I started looking into other (free) ways to do this.
+Back when I was working on my website, I was considering adding a blog to it. I quickly realized that adding lengthy blogposts to my HTML wasn't gonna cut it. I needed a server to store all my blogposts, but I wasn't really sure what that actually meant or how it worked. Since it was just an experiment, I started looking into easier (And free) ways to do this.
 <br><br>
-Eventually I stumbled upon the javascript 'fetch' function and was already familiar with JSON. After doing some prototyping I came up with an idea.
+Eventually I stumbled upon the javascript 'fetch' function and was already familiar with JSON and deploying projects from Github. After doing some prototyping I came up with an idea.
 <br><br>
-I decided to store everything in one github repository. 
+I decided to store everything in one GitHub repository. 
 <br><br>
 The content of the blogposts is stored in .txt's, a .json file holds the data of the blogposts like 'title','date' and an url to the .txt file. This all is applied to my webpage and is navigable with a menu.
 <br><br>
