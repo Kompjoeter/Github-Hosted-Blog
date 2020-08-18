@@ -24,7 +24,6 @@ function initializeMenu()
         {
             var btn = document.createElement("BUTTON");
             btn.innerHTML = json[i].title;
-            btn.classList.add("dropdown-button-post");
             btn.id = [i];
             btn.addEventListener('click',function()
             {
