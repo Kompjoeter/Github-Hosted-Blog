@@ -6,7 +6,11 @@ Eventually I stumbled upon the javascript 'fetch' function and was already famil
 <br><br>
 I decided to store everything in one github repository. 
 <br><br>
-The blogposts are be .txt's, a .json file holds the data of the blogposts like 'title','date' and an url to the .txt file. This all is applied to my webpage and is navigable with a menu.
+The content of the blogposts is stored in .txt's, a .json file holds the data of the blogposts like 'title','date' and an url to the .txt file. This all is applied to my webpage and is navigable with a menu.
+<br><br>
+The project can still be optimized, but it works and for a simple blog it does the trick.
+<br><br>
+In the future I might look into adding sorting of blogposts by date, alphabet or even category and make it so that the ordering of the blogposts on the webpage is not dependent on the order of the objects in the json array.
 <br><br>
 <h2>How does it work?</h2>
 <br>
