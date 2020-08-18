@@ -43,6 +43,7 @@ body
     min-height: 1000px;
 
     overflow-y: auto;    
+    overflow-x: hidden;
 
     border: 2px #484848 solid;
 }
@@ -70,13 +71,17 @@ body
     list-style-position: inside;
 }
 
-a
+#text a
 {
     font-weight: bold;
     text-decoration: none;
     color: #e37676;
 }
 
+#text pre
+{
+    overflow-x: auto;
+}
 /*--Blog Nav--*/
 
 .blog-nav
