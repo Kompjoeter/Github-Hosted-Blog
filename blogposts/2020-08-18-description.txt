@@ -4,7 +4,7 @@ The blogposts are stored in the same repo as the blog is deployed from, as .txt 
 <br><br>
 <h2>How does it work?</h2>
 <br>
-To display a blogpost, the program grabs a .json file from its repo using 'fetch'. The json file consists of an array filled with objects, each object containing a <b>'title'</b>, <b>'date'</b> and <b>'file'</b>.
+To display a blogpost, the program grabs a .json file from its repo using 'fetch'. The json file consists of an array filled with objects, each object containing a 'title', 'date' and 'file'.
 <br><br>
 The <b>'title'</b> is a simple string with the title of the post. It gets applied to the correct HTML element.
 <br>
