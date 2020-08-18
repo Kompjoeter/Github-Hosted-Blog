@@ -1,7 +1,6 @@
 This is a github-stored blog made by RanDByyp aka Joran de Boer.
 <br><br>
 <h2>How does it work?</h2>
-<br>
 To display a blogpost, the program grabs a .json file from its repo (The same repo this webpage is deployed from) using 'fetch'. The json file consists of an array filled with objects, each object containing a 'title', 'date' and 'file'.
 <br><br>
 The 'title' is a simple string with the title of the post. It gets applied to the correct HTML element.
