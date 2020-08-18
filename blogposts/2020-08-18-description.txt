@@ -1,4 +1,4 @@
-This is a github-stored blog made by RanDByyp aka Joran de Boer. 
+This is a github-hosted blog made by RanDByyp aka Joran de Boer. 
 <br><br>
 Back when I was working on my website, I was considering adding a blog to it. I quickly realized that adding lengthy blogposts to my HTML wasn't gonna cut it. I needed hosting to store all my blogposts but I wasn't even sure if I would actually end up writing anything. It was just an experiment, so I started looking into other (free) ways to do this.
 <br><br>
