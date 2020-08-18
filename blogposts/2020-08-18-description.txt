@@ -1,4 +1,6 @@
-This is a github-stored blog made by RanDByyp aka Joran de Boer. The blog's blogposts are stored in the same repo as the blog is deployed from, as .txt files. Through some javascript the blogposts are easily navigable and the HTML file is kept clean and doesn't get cluttered with loads of blogpost-text.
+This is a github-stored blog made by RanDByyp aka Joran de Boer. 
+<br><br>
+The blogposts are stored in the same repo as the blog is deployed from, as .txt files. Through some javascript the blogposts are easily navigable and the HTML file is kept clean and doesn't get cluttered with loads of blogpost-text.
 <br><br>
 <h2>How does it work?</h2>
 <br>
