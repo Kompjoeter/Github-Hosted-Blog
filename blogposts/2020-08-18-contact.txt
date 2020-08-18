@@ -2,9 +2,11 @@ Do you have a question, want to check out my other projects, something else?
 <br><br>
 Find me!
 <br><br>
- <a href="mailto:info@randbyyp.com?subject=RanDByyp" target="_blank">E-Mail</a><br>
-<a href="https://github.com/RanDByyp">Github</a><br>
-<a href="https://twitter.com/RandbYyp">Twitter</a><br>
-<a href="https://randbyyp.github.io/">Website</a>
+<ul>
+<li><a href="mailto:info@randbyyp.com?subject=RanDByyp" target="_blank">E-Mail</a></li><br>
+<li><a href="https://github.com/RanDByyp">Github</a></li><br>
+<li><a href="https://twitter.com/RandbYyp">Twitter</a></li><br>
+<li><a href="https://randbyyp.github.io/">Website</a></li>
+</ul>
 
 
