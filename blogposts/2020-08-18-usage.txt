@@ -10,9 +10,11 @@ To use this project to make a blog of your own you'll need the following from th
 <br>
 <i>Of course you are free to edit the main.css to your liking.</i>
 <br><br>
-<b>Then what?</b>
+<b>Writing blogposts</b>
 <br><br>
-Write some blogposts and save them as a .txt. The filename can be anything but it helps if it's immediately recognizable as a specific blogpost (Also, each blogpost .txt should have a unique name). Upload the .txt files to your github repo, preferably in a folder named 'blogposts'.) 
+Write some blogposts and save them as a .txt. The filename can be anything but it helps to keep things organized if it's immediately recognizable as a specific blogpost. Each blogpost .txt should have a unique name. 
+<br><br>
+Upload the .txt files to your github repo, preferably in a folder named 'blogposts'.
 <br><br>
 <b>!- Even if you deploy your blog from gh-pages, you only need to upload your blogposts .txt's to your master branch. You can simply link to them with an url as I will explain below.</b>
 <br><br>
@@ -34,7 +36,7 @@ Now make sure your posts.json's formatting looks like this (New blogposts are ad
 ]
 </pre>
 <br><br>
-As I stated before, every object in the array represents a blogpost. It has a 'title' (string), a 'date' (string) and 'file' (string).
+As I stated before, every object in the array represents a blogpost. It has a <b>'title'</b> (string), a <b>'date'</b> (string) and <b>'file'</b>(string).
 Edit the title and date to your liking, but make sure the 'file' links to the correct url holding the .txt that contains the correct content for your blogpost.
 <br><br>
 Considering you'll store your blogposts in your github repo, make sure the url in 'file' is a 'raw' url.
