@@ -11,5 +11,5 @@ The 'file' holds a string with an url which links to a .txt file in a folder ins
 <br><br>
 This .txt file holds the text of the blog post (The text you are reading right now!), so the actual post content. It is applied to the correct HTML element as if it was actual HTML code using 'innerHTML'. (So the content of the .txt file can hold HTML-Elements <i><b>which will be applied as such</b></i>).
 <br><br>
-For every blogpost (So, for every object in the the array in the .json file) a button is created in the menu. Furthermore, the blogpsots can be navigated with 'first', 'previous', 'next' and 'last' buttons.
+For every blogpost (So, for every object in the the array in the .json file) a button is created in the menu displaying the title of said blogpost. Furthermore, the blogpsots can be navigated with 'first', 'previous', 'next' and 'last' buttons.
 
