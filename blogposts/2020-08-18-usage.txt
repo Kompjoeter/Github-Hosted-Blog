@@ -55,4 +55,12 @@ After you have edited the post.json to contain all your blogpost-data, upload it
 Now go into the blog-control.js file, and at the top of the file change the 'postsSource' variable so that it holds a string of the raw-url that links to your posts.json file in your repository.
 <br><br>
 <b>!- Even if you deploy your blog from gh-pages, you only need to upload your posts.json to your master branch. You can simply link to it with the raw-url, as just explained.</b>
+<br><br>
+<h2>Finishing up</h2>
+<br>
+Finally upload the index.html, main.css and blog-control.js to your repository and deploy the page to see if things are working correctly.
+<br><br>
+If you want add more blogposts in the future, you simply have to write content for it in a .txt. Upload the .txt to your 'blogposts' folder in your repository and add a new object to the array in your posts.json which will hold the title, date and raw-url of your new blogpost.
+<br>
+Good luck!
 
