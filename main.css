@@ -51,8 +51,7 @@ body
 .blog-post-content
 {
     grid-column: 1/13;
-    padding: 2em;
-    padding-top: 1em;
+    padding: 1em;
 }
 
 #title, #date
@@ -167,6 +166,12 @@ body
     {
         grid-column: 1/10;
         grid-row: 1;
+    }
+    
+    .blog-post-content
+    {
+        padding: 2em;
+        padding-top: 1em;
     }
 
     .blog-nav
