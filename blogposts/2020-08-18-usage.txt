@@ -1,4 +1,4 @@
-To use this project to make a blog of your own you'll need the following from this <a href="https://github.com/RanDByyp/Github-Stored-Blog">repo</a>:
+To use this project to make a blog of your own you'll need the following files from this <a href="https://github.com/RanDByyp/Github-Stored-Blog">repo</a>:
 <br><br>
 <ul>
 <li>index.html</li>
@@ -8,7 +8,7 @@ To use this project to make a blog of your own you'll need the following from th
 <li>a folder with blogposts in .txt</li>
 </ul>
 <br>
-<i>Of course you are free to edit the main.css to your liking.</i>
+<i>*Of course you are free to edit the main.css to your liking.</i>
 <br><br>
 <h2>Creating the blogposts</h2>
 <br>
@@ -41,6 +41,5 @@ Now make sure your posts.json's formatting looks like this (New blogposts are ad
 As I stated before, every object in the array represents a blogpost. It has a <b>'title'</b> (string), a <b>'date'</b> (string) and <b>'file'</b>(string).
 Edit the title and date to your liking, but make sure the 'file' links to the correct url holding the .txt that contains the correct content for your blogpost.
 <br><br>
-Considering you'll store your blogposts in your github repo, make sure the url in 'file' is a 'raw' url.
+Make sure the url in 'file' is a 'raw' url, otherwise the 'fetch' operation to grab the blogpost .txt will fail. When you navigate to the .txt file in your repo, there should be a button titled 'raw' somewhere on the screen, click it and copy the url in your adress-bar. Post the copied link behind "file": in your .json file. Make sure the url is inbetween "".
 <br>
-<img src="https://github.com/RanDByyp/Github-Stored-Blog/blob/master/assets/raw.png">
