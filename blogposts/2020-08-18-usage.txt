@@ -32,7 +32,8 @@ When you navigate to the .txt file in your repository, there should be a button 
 <br><br>
 Make sure your posts.json's formatting looks something like this:
 <br><br>
-<div style="border:#484848 solid 1px;padding:1em"> 
+<pre>
+<div style="border:#484848 solid 1px;padding:2em"> 
 [<br>
 	{<br>
 		"title": "Description",<br>
@@ -47,6 +48,7 @@ Make sure your posts.json's formatting looks something like this:
 	}<br>
 ]
 </div>
+</pre>
 <br>
 After you have edited the post.json to contain all your blogpost-data, upload it to your repository.
 <br><br>
