@@ -32,19 +32,19 @@ When you navigate to the .txt file in your repository, there should be a button 
 <br><br>
 Make sure your posts.json's formatting looks something like this:
 <br><br>
-<div style="border:#484848 solid 1px;padding:2em"> 
+<div style="border:#484848 solid 1px"> 
 <pre>
 [
 	{
-		"title": "Description",<br>
-		"date":"2020/08/18",<br>
-		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-description.txt"<br>
+		"title": "Description",
+		"date":"2020/08/18",
+		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-description.txt"
 	},
 	
 	{
-		"title": "Usage",<br>
-		"date":"2020/08/18",<br>
-		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-usage.txt"<br>
+		"title": "Usage",
+		"date":"2020/08/18",
+		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-usage.txt"
 	}
 ]
 </pre>
