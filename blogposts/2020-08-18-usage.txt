@@ -5,17 +5,17 @@ To use this project to make a blog of your own you'll need the following:
 <li>main.css*</li>
 <li>blog-control.js</li>
 <li>posts.json</li>
-<li>a folder of blogposts in .txt</li>
+<li>a folder with blogposts in .txt</li>
 </ul>
 
 Of course you are free to edit the main.css to your liking.
 
-<b>Then what?</b?>
+<b>Then what?</b>
 
 Type some blogposts and save them as a .txt. The filename can be anything but it helps if it's immediately recognizable as a specific blogpost (Also, each blogpost .txt should have a unique name).
 
-Now make sure your posts.json file links to your blogposts in the correct manner:
-
+Now make sure your posts.json's formatting looks like this (New blogposts are added at the bottom of the array):
+<br><br>
 <pre>
 [
 	{
@@ -31,3 +31,10 @@ Now make sure your posts.json file links to your blogposts in the correct manner
 	}
 ]
 </pre>
+
+As I stated before, every object in the array represents a blogpost. It has a 'title' (string), a 'date' (string) and 'file' (string).
+Edit the title and date to your liking, but make sure the 'file' links to the correct url holding the .txt that contains the correct content for your blogpost.
+<br><br>
+Considering you'll store your blogposts in your github repo, make sure the url in 'file' is a 'raw' url.
+<br>
+<img src="https://github.com/RanDByyp/Github-Stored-Blog/blob/master/assets/raw.png">
