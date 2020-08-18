@@ -4,6 +4,7 @@ To display a blogpost, the program grabs a .json file from its repo (The same re
 <br><br>
 <b>It might look something like this:</b>
 <br><br>
+<pre>
 [ <br>
 	{ <br>
 		"title": "Description", <br>
@@ -11,6 +12,7 @@ To display a blogpost, the program grabs a .json file from its repo (The same re
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-description.txt" <br>
 	} <br>
 ] <br>
+</pre>
 <br><br>
 The 'title' is a simple string with the title of the post. It gets applied to the correct HTML element.
 <br><br>
