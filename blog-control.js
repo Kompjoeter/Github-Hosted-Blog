@@ -1,11 +1,13 @@
 var postAmount;
 var postActive;
-var postsSource = "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/posts.json"
+var postsSource = "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/posts.json"
+var latestPostFirst = false;
 
 window.addEventListener('load', (event) => 
 {
     initializeMenu();
     initializeNav();
+    blogPostToggle();
 });
 
 function initializeMenu()
@@ -19,7 +21,16 @@ function initializeMenu()
     .then(json => 
     {
         postAmount = json.length;
-        postActive = postAmount-1;
+        
+        if (latestPostFirst)
+        {
+            postActive = postAmount-1;
+        }
+        else
+        {
+            postActive = 0;
+        }
+
         for(let i = 0; i < json.length; i++)
         {
             var btn = document.createElement("BUTTON");
@@ -73,12 +84,7 @@ function initializeNav()
         postActive = postAmount-1;
         blogPostToggle();
     })
-
-    blogPostToggle();
 }
-
-
-
 
 function blogPostToggle()
 {
