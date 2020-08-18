@@ -1,6 +1,6 @@
 var postAmount;
 var postActive;
-var postsSource = "https://raw.githubusercontent.com/RanDByyp/randbyyp.github.io/master/posts.json"
+var postsSource = "https://github.com/RanDByyp/Github-Stored-Blog/blame/master/posts.json"
 
 window.addEventListener('load', (event) => 
 {
@@ -24,7 +24,6 @@ function initializeMenu()
         {
             var btn = document.createElement("BUTTON");
             btn.innerHTML = json[i].title;
-            btn.classList.add("dropdown-button-post");
             btn.id = [i];
             btn.addEventListener('click',function()
             {
