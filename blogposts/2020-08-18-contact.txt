@@ -1,0 +1,10 @@
+Do you have a question, want to check out my other projects, something else?
+<br><br>
+Find me!
+<br><br>
+ <a href="mailto:info@randbyyp.com?subject=RanDByyp" target="_blank">E-Mail</a>
+<a href="https://github.com/RanDByyp">Github</a>
+<a href="https://twitter.com/RandbYyp">Twitter</a>
+<a href="https://randbyyp.github.io/">Website</a>
+
+
