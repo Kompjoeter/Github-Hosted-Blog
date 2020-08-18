@@ -14,15 +14,15 @@ In the future I might look into adding 'sorting of blogposts' by date, alphabet 
 <br><br>
 <h2>How does it work?</h2>
 <br>
-To display a blogpost, the program grabs a .json file from its repo using 'fetch'. The json file consists of an array filled with objects, each object containing a 'title', 'date' and 'file'.
+To display a blogpost, the program grabs a .json file from its repository using 'fetch'. The json file consists of an array filled with objects, each object containing a 'title', 'date' and 'file'.
 <br><br>
 The <b>'title'</b> is a simple string with the title of the post. It gets applied to the correct HTML element.
 <br>
 Same goes for <b>'date'</b>, which is a simple string with the date of the post. It gets applied to the correct HTML element.
 <br>
-The <b>'file'</b> holds a string with an url which links to a .txt file in a folder inside the projects repo.
+The <b>'file'</b> holds a string with an url which links to a .txt file in a folder inside the project's repository.
 <br><br>
-This .txt file holds the text of the blog post (The text you are reading right now!), so the actual post content. It is applied to the correct HTML element as if it was actual HTML code using 'innerHTML'.
+This .txt file holds the text for the blog post (The text you are reading right now!), so the actual post content. It is applied to the correct HTML element as if it was actual HTML code using 'innerHTML'.
 <br><br>
 For every blogpost (So, for every object in the the array in the .json file) a button is created in the menu displaying the title of said blogpost. 
 <br><br>
