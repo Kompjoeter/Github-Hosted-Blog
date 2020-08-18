@@ -1,0 +1,12 @@
+To use this project to make a blog of your own you'll need the following:
+
+<ul>
+<li>index.html</li>
+<li>main.css*</li>
+<li>blog-control.js</li>
+<li>posts.json</li>
+<li>a folder of blogposts in .txt</li>
+</ul>
+
+Of course you are free to edit the main.css to your liking.
+
