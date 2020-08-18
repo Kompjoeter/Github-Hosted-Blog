@@ -32,23 +32,23 @@ When you navigate to the .txt file in your repository, there should be a button 
 <br><br>
 Make sure your posts.json's formatting looks something like this:
 <br><br>
-<pre>
 <div style="border:#484848 solid 1px;padding:2em"> 
-[<br>
-	{<br>
+<pre>
+[
+	{
 		"title": "Description",<br>
 		"date":"2020/08/18",<br>
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-description.txt"<br>
-	},<br>
+	},
 	
-	{<br>
+	{
 		"title": "Usage",<br>
 		"date":"2020/08/18",<br>
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Stored-Blog/master/blogposts/2020-08-18-usage.txt"<br>
-	}<br>
+	}
 ]
-</div>
 </pre>
+</div>
 <br>
 After you have edited the post.json to contain all your blogpost-data, upload it to your repository.
 <br><br>
