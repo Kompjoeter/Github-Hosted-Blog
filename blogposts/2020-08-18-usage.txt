@@ -31,7 +31,7 @@ When you navigate to the .txt file in your repository, there should be a button 
 <br><br>
 Make sure your posts.json's formatting looks something like this (New blogposts are added at the bottom of the array):
 <br><br>
-<div style="border:#484848 solid 2px"> 
+<div style="border:#484848 solid 1px" padding="1em"> 
 <pre>
 [
 	{
