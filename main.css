@@ -51,7 +51,8 @@ body
 .blog-post-content
 {
     grid-column: 1/13;
-    padding: 1em;
+    padding: 2em;
+    padding-top: 1em;
 }
 
 #title, #date
