@@ -1,6 +1,12 @@
 This is a github-stored blog made by RanDByyp aka Joran de Boer. 
 <br><br>
-The blogposts are stored in the same repo as the blog is deployed from, as .txt files. Through some javascript the blogposts are easily navigable and the HTML file is kept clean and doesn't get cluttered with loads of blogpost-text.
+Back when I was working on my website, I was considering adding a blog to it. I quickly realized that adding lengthy blogposts to my HTML wasn't gonna cut it. I needed hosting to store all my blogposts but I wasn't even sure if I would actually end up writing anything. It was just an experiment, so I started looking into other (free) ways to do this.
+<br><br>
+Eventually I stumbled upon the javascript 'fetch' function and was already familiar with JSON. After doing some prototyping I came up with an idea.
+<br><br>
+I decided to store everything in one github repository. 
+<br><br>
+The blogposts are be .txt's, a .json file holds the data of the blogposts like 'title','date' and an url to the .txt file. This all is applied to my webpage and is navigable with a menu.
 <br><br>
 <h2>How does it work?</h2>
 <br>
