@@ -64,7 +64,7 @@ Make sure the url in 'file' is a 'raw' url, otherwise the 'fetch' operation to g
 When you navigate to the .txt file in your repository, there should be a button titled 'raw' somewhere on the screen, click it and copy the url in your adress-bar. Post the copied link behind "file":, in your .json file. Make sure the url is inbetween "".
 
 Make sure your posts.json's formatting looks something like this:
-
+```
 [
 	{
 		"title": "Description",
@@ -76,13 +76,13 @@ Make sure your posts.json's formatting looks something like this:
 		"date":"2020/08/18",
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/blogposts/2020-08-18-usage.txt"
 	},
-	
 	{
 		"title": "Contact",
 		"date":"2020/08/18",
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/blogposts/2020-08-18-contact.txt"
 	}
 ]
+```
 
 After you have edited the post.json to contain all your blogpost-data, upload it to your repository.
 
