@@ -2,12 +2,14 @@
 	{
 		"title": "Description",
 		"date":"2020/08/18",
+		"description": "An explanation of the workings of a Github hosted blog using the fetch command.",
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/blogposts/2020-08-18-description.txt"
 	},
 	
 	{
 		"title": "Usage",
 		"date":"2020/08/18",
+		"description": "A guide on how to use the Github hosted blog yourself.",
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/blogposts/2020-08-18-usage.txt"
 	},
 	
@@ -15,6 +17,7 @@
 	{
 		"title": "Contact",
 		"date":"2020/08/18",
+		"description": "A simple list of contact info.",
 		"file": "https://raw.githubusercontent.com/RanDByyp/Github-Hosted-Blog/master/blogposts/2020-08-18-contact.txt"
 	}
 ]
